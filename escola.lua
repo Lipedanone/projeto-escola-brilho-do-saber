@@ -2709,8 +2709,8 @@ mainfunctions =
 
         --end rgb(28, 92, 255)
 
-        texts.drawTextColor("•", overlay.cursorpos.x - 0.004, overlay.cursorpos.y - 0.025, false, false, 0.905, 6, 254,
-            208, 24, math.ceil(overlay.opacitys.main))
+        texts.drawTextColor("•", overlay.cursorpos.x - 0.004, overlay.cursorpos.y - 0.025, false, false, 0.905, 6, 28,
+            92, 255, math.ceil(overlay.opacitys.main))
     end,
 
 
@@ -8584,7 +8584,7 @@ end
 
 
 
-                    local color = { 28, 96, 255, 255 }
+                    local color = { 28, 92, 255, 255 }
 
 
 
